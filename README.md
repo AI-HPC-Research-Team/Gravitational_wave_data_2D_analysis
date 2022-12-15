@@ -7,15 +7,15 @@ Gravitational wave data analysis and signal detection (in time-frequence images)
 This research proposed a new vision on Time series classification (TSC) tasks of low SNR (-20dB)  multi-source gravitational wave (GW) simulation data, which converts  1-dimension time series data into 2-dimension time-frequency image and then extracts the latent features. We mainly concerned on four different wave sources which are  extreme-mass-ratio-inspirals (EMRI), massive black hole binaries (MBHB), binary white dwarfs (BWD), and stochastic gravitational wave background (SGWB), the time-frequency representation of each source is shown as follows. 
 
 SGWB
-<img src="/Images/sgwb.jpg" width="1100" height="550"/><br/>
+<img src="/Images/sgwb.JPEG"/><br/>
 MBHB
-<img src="/Images/mbhb.jpg" width="1100" height="550"/><br/>
+<img src="/Images/mbhb.JPEG"/><br/>
 BWD
-<img src="/Images/bwd.jpg" width="1100" height="550"/><br/>
+<img src="/Images/bwd.JPEG"/><br/>
 EMRI
-<img src="/Images/emri.jpg" width="1100" height="550"/><br/>
+<img src="/Images/emri.JPEG"/><br/>
 Noise
-<img src="/Images/noise.jpg" width="1100" height="550"/><br/>
+<img src="/Images/noise.JPEG"/><br/>
 
 ## Installation
 
@@ -47,11 +47,11 @@ python -m torch.distributed.launch  --nproc_per_node 6  Swin-transformer/main.py
 
 Without extra steps like denoising, our model achieves over 90% accuracy on validation set, with a classification accuracy close to 100% for EMRI and BWD.
 
-<img src="/Images/confusion_matrix.jpg" width="1100" height="550"/><br/>
+<img src="/Images/confusion_matrix.png"/><br/>
 
 As can be observed, the SGWB is similar to noise regarding the data characteristics therefore results in a higher misidentification error. Since  the amplitude of noise is much higher than that of SGWB across the whole time series, the time-frequency representations of these types are extremely similar in waveform.
 
-<img src="/Images/wave_comparison.jpg" width="1100" height="550"/><br/>
+<img src="/Images/wave_comparison.jpg"/><br/>
 
 ## Project Support
 
