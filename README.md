@@ -12,19 +12,19 @@ This research proposed a new vision on Time series classification (TSC) tasks of
 
 **MBHB**
 
-<img src="/Images/smbhb.JPEG"/><br/>
+<img src="/Images/smbhb.JPEG" width="300" height="200"/><br/>
 
 **BWD**
 
-<img src="/Images/bwd.JPEG"/><br/>
+<img src="/Images/bwd.JPEG" width="300" height="200"/><br/>
 
 **EMRI**
 
-<img src="/Images/emri.JPEG"/><br/>
+<img src="/Images/emri.JPEG" width="300" height="200"/><br/>
 
 **Noise**
 
-<img src="/Images/noise.JPEG"/><br/>
+<img src="/Images/noise.JPEG" width="300" height="200"/><br/>
 
 ## Installation
 
@@ -56,11 +56,11 @@ python -m torch.distributed.launch  --nproc_per_node 6  Swin-transformer/main.py
 
 Without extra steps like denoising, our model achieves over 90% accuracy on validation set, with a classification accuracy close to 100% for EMRI and BWD.
 
-<img src="/Images/confusion_matrix.png"/><br/>
+<img src="/Images/confusion_matrix.png" width="300" height="200"/><br/>
 
 As can be observed, the SGWB is similar to noise regarding the data characteristics therefore results in a higher misidentification error. Since  the amplitude of noise is much higher than that of SGWB across the whole time series, the time-frequency representations of these types are extremely similar in waveform.
 
-<img src="/Images/wave_comparison.jpg"/><br/>
+<img src="/Images/signal_compare.jpg" width="300" height="200"/><br/>
 
 ## Project Support
 
