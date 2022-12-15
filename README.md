@@ -6,15 +6,24 @@ Gravitational wave data analysis and signal detection (in time-frequence images)
 
 This research proposed a new vision on Time series classification (TSC) tasks of low SNR (-20dB)  multi-source gravitational wave (GW) simulation data, which converts  1-dimension time series data into 2-dimension time-frequency image and then extracts the latent features. We mainly concerned on four different wave sources which are  extreme-mass-ratio-inspirals (EMRI), massive black hole binaries (MBHB), binary white dwarfs (BWD), and stochastic gravitational wave background (SGWB), the time-frequency representation of each source is shown as follows. 
 
-SGWB
-<img src="/Images/sgwb.JPEG"/><br/>
-MBHB
-<img src="/Images/mbhb.JPEG"/><br/>
-BWD
+**SGWB**
+
+<img src="/Images/sgwb.JPEG" width="300" height="200"/><br/>
+
+**MBHB**
+
+<img src="/Images/smbhb.JPEG"/><br/>
+
+**BWD**
+
 <img src="/Images/bwd.JPEG"/><br/>
-EMRI
+
+**EMRI**
+
 <img src="/Images/emri.JPEG"/><br/>
-Noise
+
+**Noise**
+
 <img src="/Images/noise.JPEG"/><br/>
 
 ## Installation
