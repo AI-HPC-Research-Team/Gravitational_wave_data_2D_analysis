@@ -56,11 +56,11 @@ python -m torch.distributed.launch  --nproc_per_node 6  Swin-transformer/main.py
 
 Without extra steps like denoising, our model achieves over 90% accuracy on validation set, with a classification accuracy close to 100% for EMRI and BWD.
 
-<img src="/Images/confusion_matrix.png" width="500" height="400" div align=center/><br/>
+<img src="/Images/confusion_matrix.png" width="500" height="350" div align=center/><br/>
 
 As can be observed, the SGWB is similar to noise regarding the data characteristics therefore results in a higher misidentification error. Since  the amplitude of noise is much higher than that of SGWB across the whole time series, the time-frequency representations of these types are extremely similar in waveform.
 
-<img src="/Images/signal_compare.jpg" width="400" height="250" div align="center"/><br/>
+<img src="/Images/signal_compare.jpg" width="400" height="300" div align="center"/><br/>
 
 ## Project Support
 
