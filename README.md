@@ -8,7 +8,7 @@ This research proposed a new vision on Time series classification (TSC) tasks of
 
 **SGWB**
 
-<img src="/Images/sgwb.JPEG" width="300" height="200"/><br/> <img src="/Images/smbhb.JPEG" width="300" height="200"/><br/>
+<img src="/Images/sgwb.JPEG" width="300" height="200"/><br/>
 
 
 **MBHB**
